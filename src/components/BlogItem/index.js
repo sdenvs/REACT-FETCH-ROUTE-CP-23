@@ -15,7 +15,11 @@ const BlogItem = props => {
           <p>{topic}</p>
           <h1 className="h5 text-dark">{title}</h1>
           <div className="d-flex align-items-center ">
-            <img className="avatar rounded-circle mr-2" src={avatarUrl} />
+            <img
+              alt={title}
+              className="avatar rounded-circle mr-2"
+              src={avatarUrl}
+            />
             <p className="pt-3">{author}</p>
           </div>
         </div>

@@ -35,10 +35,14 @@ class BlogItemDetails extends Component {
       <div className="blogDetails">
         <h1 className="text-center">{title}</h1>
         <div className="d-flex">
-          <img className="mr-2 avatar rounded-circle" src={avatarUrl} />
+          <img
+            className="mr-2 avatar rounded-circle"
+            src={avatarUrl}
+            alt={author}
+          />
           <p>{author}</p>
         </div>
-        <img className="w-100" src={imageUrl} />
+        <img className="w-100" src={imageUrl} alt={title} />
         <p>{content}</p>
       </div>
     )
