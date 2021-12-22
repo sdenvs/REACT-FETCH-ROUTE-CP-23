@@ -1,1 +1,6 @@
 /* Write your CSS code here */
+.ulList {
+  list-style-type: none;
+  padding: 0px;
+  padding: 15px;
+}

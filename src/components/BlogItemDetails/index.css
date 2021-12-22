@@ -1,1 +1,31 @@
-/* Write your CSS code here */
+h1 {
+  font-size: 18px;
+  color: #000000 !important;
+}
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+p {
+  font-size: 18px;
+  color: #2f4f4f !important;
+  word-wrap: break-word;
+}
+.blogDetails {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .blogDetails {
+    padding: 40px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+}

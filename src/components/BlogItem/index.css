@@ -1,1 +1,18 @@
 /* Write your CSS code here */
+.image-1 {
+  width: 100%;
+}
+.avatar {
+  width: 30px;
+}
+.blogItem {
+  border-radius: 8px;
+}
+p {
+  color: #8e8e8e;
+}
+@media (min-width: 768px) {
+  .image-1 {
+    width: 40%;
+  }
+}
